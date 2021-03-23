@@ -1,0 +1,25 @@
+.blue{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    z-index: -4;
+}
+.red{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+     z-index: -2;
+}
+.green{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    z-index: -3;
+}
+
+/*span {*/
+/*    display: inline-block;*/
+/*}*/
+div{
+    position: absolute;
+}
