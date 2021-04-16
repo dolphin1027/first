@@ -99,11 +99,13 @@ header{
     margin: auto;
     margin-top: calc(100vw * 15 / 1920);
     font-family: "Roboto-Regular","Open-sans";}
+
 @media (max-width: 1024px) {
     html{
         max-height: 100vh;
         max-width: 100vw;
     }
+}
     body {
         background: url("img/background-tablet.png") no-repeat center bottom #DCDBE3;
         background-size: 100%;
@@ -176,13 +178,14 @@ header{
         margin-top: -50px;
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 414px) {
     body{
         background:url("img/mobileBG.png") no-repeat bottom;
         width:100vw;
         height:100vh;
         margin-top: 0;
         background-size: cover;
+        background-attachment: scroll;
     }
     header{
         margin-top:0;

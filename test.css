@@ -1,25 +1,17 @@
-.blue{
-    background-color: blue;
-    width: 100px;
+.subpixel{
+    width: calc(100px / 3);
     height: 100px;
-    z-index: -4;
 }
 .red{
-    background-color: red;
-    width: 100px;
-    height: 100px;
-     z-index: -2;
+    background: rgb(1,1,0);
+    display: inline-block;
 }
 .green{
-    background-color: green;
-    width: 100px;
-    height: 100px;
-    z-index: -3;
+    background: green;
+    display: inline-block;
+}
+.blue{
+    background: blue;
+    display: inline-block;
 }
 
-/*span {*/
-/*    display: inline-block;*/
-/*}*/
-div{
-    position: absolute;
-}
